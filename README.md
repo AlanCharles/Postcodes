@@ -9,11 +9,11 @@ I've called my model 'Location' but it can be whatever you like. Note that if yo
 
 
 ## 2. Get the CSV ready
-Copy the `locations.csv` file into your app. I usually put mine in `app/private_assets/locations.csv`. If you change the location then you'll also need to edit the rake task.
+Copy the `location.csv` file into your app. I usually put mine in `app/private_assets/location.csv`. If you change the location then you'll also need to edit the rake task.
 
 
 ## 3. Get the rake task ready
-Copy the `locations.rake` file into `lib/tasks/locations.rake`. If you've changed the name of your model or the location of the csv file in steps 1 & 2 then you'll need to edit this rake file to reflect your changes.
+Copy the `location.rake` file into `lib/tasks/location.rake`. If you've changed the name of your model or the location of the csv file in steps 1 & 2 then you'll need to edit this rake file to reflect your changes.
 
 ## 4. Run the rake
-`rails rake locations` from the terminal is all you need to populate the database. If you're on Heroku then it's `heroku run rake locations --app MyAppName`
+`rails rake location` from the terminal is all you need to populate the database. If you're on Heroku then it's `heroku run rake location --app MyAppName`
